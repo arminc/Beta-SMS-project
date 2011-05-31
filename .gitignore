@@ -1,0 +1,5 @@
+#Ignore eclipse files
+.project
+.settings
+Beta-SMS
+Beta-SMS-it
