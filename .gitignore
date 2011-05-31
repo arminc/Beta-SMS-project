@@ -1,5 +1,7 @@
 #Ignore eclipse files
 .project
 .settings
+
+#Ignore Beta-SMS projects, these are in a separate repo
 Beta-SMS
 Beta-SMS-it
