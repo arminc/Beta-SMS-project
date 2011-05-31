@@ -5,17 +5,9 @@
 
 	<groupId>nl.coralic</groupId>
 	<artifactId>Beta-SMS-parent</artifactId>
-	<version>${betasmsVersion}</version>
+	<version>1</version>
 	<packaging>pom</packaging>
 	<name>Beta-SMS - Parent</name>
-
-	<properties>
-		<!-- set a custom format that is guaranteed to grow as a Long number, so 
-			it can be used as version code in the AndroidManifest.xml -->
-		<maven.build.timestamp.format>yyMMdddHHmm</maven.build.timestamp.format>
-		<versionCode>${maven.build.timestamp}</versionCode>
-		<betasmsVersion>2.4</betasmsVersion>
-	</properties>
 
 	<dependencyManagement>
 		<dependencies>
@@ -66,29 +58,6 @@
 						<deleteConflictingFiles>true</deleteConflictingFiles>
 						<undeployBeforeDeploy>true</undeployBeforeDeploy>
 					</configuration>
-				</plugin>
-
-				<plugin>
-					<artifactId>maven-enforcer-plugin</artifactId>
-					<version>1.0</version>
-				</plugin>
-				<plugin>
-					<artifactId>maven-release-plugin</artifactId>
-					<version>2.1</version>
-					<configuration>
-						<autoVersionSubmodules>true</autoVersionSubmodules>
-					</configuration>
-				</plugin>
-
-				<plugin>
-					<groupId>com.pyx4me</groupId>
-					<artifactId>proguard-maven-plugin</artifactId>
-					<version>2.0.4</version>
-				</plugin>
-				<plugin>
-					<groupId>org.codehaus.mojo</groupId>
-					<artifactId>buildnumber-maven-plugin</artifactId>
-					<version>1.0-beta-4</version>
 				</plugin>
 			</plugins>
 		</pluginManagement>

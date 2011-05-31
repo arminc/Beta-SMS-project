@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-	<remote  name="github" fetch="git://github.com/"/>
-	<project path="Beta-SMS-it" name="arminc/Beta-SMS-it" remote="github" />
-	<project path="Beta-SMS" name="arminc/Beta-SMS" remote="github" />
-</manifest>
