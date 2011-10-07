@@ -84,6 +84,12 @@ git clone git://github.com/arminc/Beta-SMS-it.git
 git clone git://github.com/arminc/Beta-SMS.git
 ```
 
+## Libs
+Add the adsense library.
+```
+mvn install:install-file -Dfile=GoogleAdMobAdsSdk-4.1.1.jar -DgroupId=com.google.ads -DartifactId=GoogleAdMobAdsSdk -Dversion=4.1.1 -Dpackaging=jar
+```
+
 ### Emulator
 
 To be able to run and test the Beta-SMS project you need to create a Emulator with Android 2.1 and call it “TestEmu”
